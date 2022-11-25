@@ -173,6 +173,7 @@ Les classes concrètes sont justement celles tirées des classes abstraites (des
 
 ## Polymorphisme
 
-Le polymorphisme est un état des méthodes. 
-C'est la capacité d'une méthode à être executée différemment selon la classe d'objet dans lequel elle est utilisée
+Le polymorphisme est un mécanisme important dans la programmation objet. Il permet de modifier le comportement d’une classe fille par rapport à sa classe mère. Le polymorphisme permet d’utiliser l’héritage comme un mécanisme d’extension en adaptant le comportement des objets.
+
+
 
