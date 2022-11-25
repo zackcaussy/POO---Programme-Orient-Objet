@@ -133,10 +133,10 @@ L’encapsulation est un mécanisme consistant à rassembler les données et les
 
 L’encapsulation permet de définir des niveaux de visibilité des éléments de la classe. Ces niveaux de visibilité définissent les droits d’accès aux données selon que l’on y accède par une méthode de la classe elle-même, d’une classe héritière, ou bien d’une classe quelconque. Il existe quatre niveaux de visibilité :
 
-    - Visibilité par défaut : aucun modificateur de visibilité n’est indiqué.
-    - Visibilité publique : les fonctions de toutes les classes peuvent accéder aux données ou aux méthodes d’une classe définie avec le niveau de visibilité « public ». Il s’agit du plus bas niveau de protection des données.
-    - Visibilité protégée : l’accès aux données est réservé aux fonctions des classes héritières, c’est-à-dire par les fonctions membres de la classe et des classes dérivées. Ainsi, Un attribut ou une méthode déclarée « protected » est accessible uniquement aux classes d’un package et à ses sous-classes même si elles sont définies dans un package différent.
-    - Visibilité privée : l’accès aux données est limité aux méthodes de la classe elle-même. Il s’agit du niveau de protection des données le plus élevé
+- Visibilité par défaut : aucun modificateur de visibilité n’est indiqué.
+- Visibilité publique : les fonctions de toutes les classes peuvent accéder aux données ou aux méthodes d’une classe définie avec le niveau de visibilité « public ». Il s’agit du plus bas niveau de protection des données.
+- Visibilité protégée : l’accès aux données est réservé aux fonctions des classes héritières, c’est-à-dire par les fonctions membres de la classe et des classes dérivées. Ainsi, Un attribut ou une méthode déclarée « protected » est accessible uniquement aux classes d’un package et à ses sous-classes même si elles sont définies dans un package différent.
+- Visibilité privée : l’accès aux données est limité aux méthodes de la classe elle-même. Il s’agit du niveau de protection des données le plus élevé
 
 
 ## Associations
@@ -163,7 +163,12 @@ Par exemple, d'une classe voiture on crée une classe pneu.
 
 ## Héritage
 
-L’héritage est une autre façon d’exprimer la généralisation et la spécialisation. L’héritage est la propriété qui permet à une sous-classe d’hériter des attributs et méthodes de sa classe mère.
+Le concept d'héritage est un des concepts les plus importants de la programmation orientée objet, car il conditionne irréversiblement la façon selon laquelle un code Java est écrit. L'héritage est un mécanisme permettant de créer une nouvelle classe à partir d'une classe existante en lui proférant ses propriétés et ses méthodes.
+
+Ainsi, pour définir une nouvelle classe, il suffit de la faire hériter d'une classe existante et de lui ajouter de nouvelles propriétés/méthodes.
+
+De cette façon, les classes héritées forment une hiérarchie descendante, au sommet de laquelle se situe la classe de base (superclasse). On appelle également la classe héritée la sous-classe et la classe parente la super-classe. 
+
 
 ## Classes abstraites et concrètes
 
