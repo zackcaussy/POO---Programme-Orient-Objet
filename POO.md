@@ -129,8 +129,15 @@ La classe Java est une entité qui détermine le comportement d’un objet et so
 
 ## Encapsulation
 
-l’encapsulation est un mécanisme qui empêche  de modifier ou d’accéder aux objets par un autre moyen que les méthodes proposées, et de ce fait, permet de garantir l’intégrité des objets.
-L'encapsulation est donc directement liée à la visibilité des attributs et méthodes. 
+L’encapsulation est un mécanisme consistant à rassembler les données et les méthodes au sein d’une structure en cachant l’implémentation de l’objet, c’est-à-dire en empêchant l’accès aux données par un autre moyen que les services proposés. L’encapsulation permet donc de garantir l’intégrité des données contenues dans l’objet. Ainsi, si l’on veut protéger des informations contre une modification inattendue, on doit se référer au principe d’encapsulation.
+
+L’encapsulation permet de définir des niveaux de visibilité des éléments de la classe. Ces niveaux de visibilité définissent les droits d’accès aux données selon que l’on y accède par une méthode de la classe elle-même, d’une classe héritière, ou bien d’une classe quelconque. Il existe quatre niveaux de visibilité :
+
+    - Visibilité par défaut : aucun modificateur de visibilité n’est indiqué.
+    - Visibilité publique : les fonctions de toutes les classes peuvent accéder aux données ou aux méthodes d’une classe définie avec le niveau de visibilité « public ». Il s’agit du plus bas niveau de protection des données.
+    - Visibilité protégée : l’accès aux données est réservé aux fonctions des classes héritières, c’est-à-dire par les fonctions membres de la classe et des classes dérivées. Ainsi, Un attribut ou une méthode déclarée « protected » est accessible uniquement aux classes d’un package et à ses sous-classes même si elles sont définies dans un package différent.
+    - Visibilité privée : l’accès aux données est limité aux méthodes de la classe elle-même. Il s’agit du niveau de protection des données le plus élevé
+
 
 ## Associations
 
