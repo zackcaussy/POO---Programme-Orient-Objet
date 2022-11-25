@@ -1,7 +1,7 @@
 # POO---Programme-Orient-Objet
-Programme Orienté Objet - ex. Java
 
-# Présentation générale :
+
+# Présentation générale : Programme Orienté Objet - ex. Java
 
  - Objet
  - Classe d'objet
