@@ -9,7 +9,7 @@ public class Rooms{
      }
   
     private Rooms(int nbrpersonnes) {
-          this.nbpersonnes = personnes;
+          this.nbpersonnes = nbrpersonnes;
      }
 }
 ```
