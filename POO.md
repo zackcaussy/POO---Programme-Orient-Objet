@@ -169,12 +169,16 @@ Ainsi, pour définir une nouvelle classe, il suffit de la faire hériter d'une c
 
 De cette façon, les classes héritées forment une hiérarchie descendante, au sommet de laquelle se situe la classe de base (superclasse). On appelle également la classe héritée la sous-classe et la classe parente la super-classe. 
 
+Il est souvent fait mention de la classe parent -> classe enfant. (ex. Classe mère-fille)
+
 
 ## Classes abstraites et concrètes
 
-Une classe abstraite est une classe qui ne sera pas utilisée comme telle. Elle possèdes des attributs et méthodes destinés à être accessibles aux classes tirées de celle-ci. 
+Une classe abstraite est une classe qui ne sera pas utilisée comme telle. Elle possède des attributs et méthodes destinés à être accessibles aux classes tirées de celle-ci. 
 
 Les classes concrètes sont justement celles tirées des classes abstraites (des superclasses), elles sont celles "réelles", utilisées et instanciées dans le programme. 
+
+(ex. La classe Animal/ Classe Mamifère sera considérée comme une classe abstraite alors que la classe Chien/Cheval/Chat sera considére comme une classe concrètes).
 
 ## Polymorphisme
 
